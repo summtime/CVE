@@ -23,7 +23,7 @@ IV. TIMELINE
 V. DESCRIPTION
 -------------------------
 This vulnerability is caused by the lack of access control in the NVT Webserver which can manage their products through web page.
-NVT Web enables only an administrator to access 'Setting' button which is written Javascript. The attacker can change HTTP requests and responses because authorization check in only on the client side. 
+NVT Web enables only an administrator to access 'Setting' button which is written Javascript. The attacker can change HTTP requests and responses because authorization check is in only on the client side. 
 GetFileContent.cgi reads the contents of the file. Since the web server process is running with root privileges, it can read sensitive information such as /etc/passwd.
 Similarly, SetFileContent.cgi writes a file which allows the attacker to create a root account on the server without password.
 
