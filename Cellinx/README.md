@@ -8,11 +8,11 @@ Root privilege escalation in Cellinx Systems' NVT Webserver UR ver. 5.0.0.014b.t
 
 II. CVE REFERENCE
 -------------------------
-
+[CVE-2020-28250](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28250)
 
 III. VENDOR
 -------------------------
-Cellinx Systems, Ltd. (https://sites.google.com/view/cellinx-systems-eng?)
+Cellinx Systems, Ltd. (https://sites.google.com/view/cellinx-systems-eng)
 
 
 IV. TIMELINE
@@ -38,4 +38,5 @@ VI. SOLUTION
 
 VII. REFERENCES
 -------------------------
+
 [CWE-264 Permissions, Privileges, and Access Controls](https://cwe.mitre.org/data/definitions/264.html)
